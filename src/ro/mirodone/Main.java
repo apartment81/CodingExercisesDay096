@@ -8,9 +8,13 @@ public class Main {
         System.out.println(sumOfSquares.getMinSquares(6));
         System.out.println(sumOfSquares.getMinSquares(15));
         System.out.println(sumOfSquares.getMinSquares(16));
-        System.out.println(sumOfSquares.getMinSquares(17));
-        System.out.println(sumOfSquares.getMinSquares(18));
+        System.out.println(sumOfSquares.getMinSquares(71));
         System.out.println(sumOfSquares.getMinSquares(19));
+
+        SumOfSquaresO sumOfSquaresO = new SumOfSquaresO();
+
+        System.out.println(sumOfSquaresO.perfectSquaresLagrange(19));
+        System.out.println(sumOfSquaresO.perfectSquaresLagrange(6));
 
     }
 }
